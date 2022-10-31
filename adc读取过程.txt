@@ -1,0 +1,13 @@
+ADC 单次读取
+	1.adc1_config_width()   配置好位�?
+	2.adc1_config_channel_atten()  配置好衰�?
+	3.adc1_get_raw()   读取结果
+
+1.DMA程序步骤
+初始化ADC驱动，使用函数adc_digi_initialize().
+初始化ADC控制，使用函数adc_digi_controller_config().
+开始ADC连续读取，使用函数adc_digi_start().
+在开始之后，你可以得到ADC读取的结果通过函数adc_digi_read_bytes(). 在停止ADC adc_digi_stop()之前你可以连续不断的采集到这个模拟量.
+重新初始化ADC，使用函数adc_digi_deinitialize().
+
+������
