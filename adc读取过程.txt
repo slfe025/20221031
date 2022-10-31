@@ -10,4 +10,4 @@ ADC 单次读取
 在开始之后，你可以得到ADC读取的结果通过函数adc_digi_read_bytes(). 在停止ADC adc_digi_stop()之前你可以连续不断的采集到这个模拟量.
 重新初始化ADC，使用函数adc_digi_deinitialize().
 
-������
+������11
