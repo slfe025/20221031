@@ -11,3 +11,4 @@ ADC 单次读取
 重新初始化ADC，使用函数adc_digi_deinitialize().
 
 ������11
+44444444444444444444
